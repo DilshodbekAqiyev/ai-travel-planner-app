@@ -9,8 +9,15 @@ import { getFirestore } from "firebase/firestore";
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-    // GET YOUR CONFIG IN FIREBASE PLATFORM
-};
+    apiKey: "AIzaSyCyzqEiZNy9Opbrq72z6v5tgRwOZTbeqlQ",
+    authDomain: "wejustgo-3497e.firebaseapp.com",
+    projectId: "wejustgo-3497e",
+    storageBucket: "wejustgo-3497e.firebasestorage.app",
+    messagingSenderId: "274981063153",
+    appId: "1:274981063153:web:ec2c8f4005b98ad6be9c50",
+    measurementId: "G-4T7679YWLZ"
+  };
+ 
 
 // Initialize Firebase
 export const app = initializeApp(firebaseConfig);
