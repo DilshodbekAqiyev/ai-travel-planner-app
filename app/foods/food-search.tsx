@@ -2,11 +2,20 @@ import { View, Text, TextInput, TouchableOpacity, Image, StyleSheet, ScrollView 
 import React, { useState } from "react";
 import { Ionicons } from "@expo/vector-icons";
 import { useRouter } from "expo-router";
+import sampleFoods from "./details.json";
+import { SearchHotelDetailsProps } from "../hotels/props";
+import { SearchItems } from "../hotels/search";
 
 export default function FoodSearch() {
     const [searchQuery, setSearchQuery] = useState("");
     const [filteredRestaurants, setFilteredRestaurants] = useState([]);
+    const [isFetching, setIsFetching] = useState(false);
     const router = useRouter();
+
+    // set as false if want to use api
+    const isDebug = true;
+
+    const _sampleFoods = sampleFoods as SearchHotelDetailsProps[];
 
     const restaurants = [
         { id: 1, name: "Jogoya", location: "Kuala Lumpur, Malaysia", image: "https://www.wonderfulmalaysia.com/food/files/2012/01/jogoya-japanese-buffet-restaurant-starhill-gallery-8.jpg" },
@@ -21,17 +30,22 @@ export default function FoodSearch() {
         { id: 7, name: "Tamarind Hill", location: "Kuala Lumpur, Malaysia", image: "https://foodforthought.com.my/wp-content/uploads/Tamarind-Hill-Exterior-Tamarind-Hill-Food-For-Thought.jpg" },
     ];
 
-    const handleSearch = (text) => {
-        setSearchQuery(text);
-        if (text.trim() === "") {
-            setFilteredRestaurants([]);
-        } else {
-            const filtered = restaurants.filter(restaurant =>
-                restaurant.name.toLowerCase().includes(text.toLowerCase()) ||
-                restaurant.location.toLowerCase().includes(text.toLowerCase())
-            );
-            setFilteredRestaurants(filtered);
+    const handleSearch = async (text: string) => {
+        if (isDebug) {
+            router.push({ pathname: "/foods/food-list", params: { hotels: JSON.stringify(_sampleFoods) } })
+            return;
         }
+        if (isFetching) return;
+        setIsFetching(true);
+        console.log("Input:", text);
+
+        const hotels = await SearchItems(text);
+        console.log("Search result:", hotels);
+
+        setIsFetching(false);
+        // console.log(hotels);
+
+        router.push({ pathname: "/hotels/hotel-list", params: { hotels: JSON.stringify(hotels) } })
     };
 
     return (
@@ -48,8 +62,11 @@ export default function FoodSearch() {
                     style={styles.searchBar}
                     placeholder="Search restaurants"
                     value={searchQuery}
-                    onChangeText={handleSearch}
+                    onChangeText={(text) => { setSearchQuery(text) }}
                 />
+                <TouchableOpacity onPress={() => { handleSearch(searchQuery) }}>
+                    <Ionicons name="navigate-outline" size={24} color="gray" style={styles.searchIcon} />
+                </TouchableOpacity>
             </View>
 
             {/* Nearby Restaurants Section */}

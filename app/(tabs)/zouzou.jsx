@@ -16,7 +16,7 @@ export default function ZouZou() {
          fontSize: 24,
          fontFamily: "outfit-bold",
          textAlign: "center",
-         marginTop: 20
+         marginTop: 40
        }}
      >
        ZouZou
@@ -133,9 +133,9 @@ export default function ZouZou() {
        {/* Voucher List */}
        <ScrollView horizontal showsHorizontalScrollIndicator={false}>
          {[
-           { name: "Tealive RM5 Off", points: 500, image: "tealive.jpg" },
-           { name: "Sunway Lagoon RM30 Off", points: 2500, image: "sunway.jpg" },
-           { name: "Bobbi Brown 15%", points: 200, image: "bobbi.jpg" }
+           { name: "Tealive RM5 Off", points: 500, image: "https://static.wixstatic.com/media/2c0fab_5fb1c9d1510e42ac86ad8bad39dad922~mv2.png/v1/fill/w_560,h_564,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Pavi-Bkt-Jalil-3.png" },
+           { name: "Sunway Lagoon RM30 Off", points: 2500, image: "https://www.pelago.com/img/products/MY-Malaysia/sunway-lagoon-amusement--water-park/f232c683-08bf-4fd0-b7a8-025cbbef03a7_sunway-lagoon-theme-park.jpg" },
+           { name: "Bobbi Brown 15%", points: 200, image: "https://m.bobbibrown.com.my/media/export/cms/Homepage/IS_Cushion_Banner_Mobile.png" }
          ].map((voucher, index) => (
            <View
              key={index}
@@ -152,7 +152,7 @@ export default function ZouZou() {
              }}
            >
              <Image
-               source={{ uri: `https://your-image-source/${voucher.image}` }}
+               source={{ uri: `${voucher.image}` }}
                style={{ width: 80, height: 60, borderRadius: 5 }}
              />
              <Text style={{ fontSize: 14, fontFamily: "outfit-medium", marginTop: 5 }}>
@@ -173,7 +173,7 @@ export default function ZouZou() {
          backgroundColor: "#EAF2FF",
          padding: 15,
          borderRadius: 10,
-         marginTop: 20
+         marginTop: 30
        }}
      >
        <Text style={{ fontSize: 16, fontFamily: "outfit-bold", marginBottom: 5 }}>

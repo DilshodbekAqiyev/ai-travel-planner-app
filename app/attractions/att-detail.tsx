@@ -2,10 +2,12 @@ import { View, Text, Image, ScrollView, TouchableOpacity, StyleSheet, Linking } 
 import React from "react";
 import { Ionicons } from "@expo/vector-icons";
 import { useLocalSearchParams, useRouter } from "expo-router";
+import { SearchHotelDetailsProps } from "../hotels/props";
 
 export default function AttractionDetail() {
     const params = useLocalSearchParams();
     const router = useRouter();
+    const attraction: SearchHotelDetailsProps = JSON.parse(params.attraction as string);
 
     // Attraction Data (matching att-search.jsx)
     const attractions = {
@@ -165,7 +167,7 @@ export default function AttractionDetail() {
         },
     };
 
-    const attraction = attractions[params.id] || attractions[1]; // Default to Petronas Twin Towers if ID is invalid
+    // const attraction = attractions[params.id] || attractions[1]; // Default to Petronas Twin Towers if ID is invalid
 
     return (
         <ScrollView style={styles.container} showsVerticalScrollIndicator={true}>
@@ -185,41 +187,41 @@ export default function AttractionDetail() {
             </View>
 
             {/* Main Image */}
-            <Image source={{ uri: attraction.image }} style={styles.mainImage} />
+            <Image source={{ uri: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photo_reference=${attraction.photos[0].photo_reference}&key=${process.env.EXPO_PUBLIC_GOOGLE_MAP_KEY}` }} style={styles.mainImage} />
 
             {/* Attraction Info */}
             <View style={styles.infoContainer}>
                 <Text style={styles.title}>{attraction.name}</Text>
-                <Text style={styles.location}>{attraction.location}</Text>
+                <Text style={styles.location}>{attraction.formatted_address}</Text>
                 <View style={styles.ratingContainer}>
-    <Ionicons name="star" size={18} color="gold" />
-    <Ionicons name="star" size={18} color="gold" />
-    <Ionicons name="star" size={18} color="gold" />
-    <Ionicons name="star" size={18} color="gold" />
-    <Ionicons name="star-half" size={18} color="gold" />
-    <Text style={styles.ratingText}>{attraction.rating}</Text>
-    
-    <TouchableOpacity onPress={() => alert("Redirect to review page!")}>
-        <Text style={styles.reviewText}>{attraction.reviews} reviews</Text>
-    </TouchableOpacity>
-</View>
+                    <Ionicons name="star" size={18} color="gold" />
+                    <Ionicons name="star" size={18} color="gold" />
+                    <Ionicons name="star" size={18} color="gold" />
+                    <Ionicons name="star" size={18} color="gold" />
+                    <Ionicons name="star-half" size={18} color="gold" />
+                    <Text style={styles.ratingText}>{attraction.rating}</Text>
+
+                    <TouchableOpacity onPress={() => alert("Redirect to review page!")}>
+                        <Text style={styles.reviewText}>10 reviews</Text>
+                    </TouchableOpacity>
+                </View>
 
                 {/* Ranking & Category */}
-                <Text style={styles.hashtag}>{attraction.ranking}</Text>
-                <Text style={styles.priceCategory}>{attraction.category}</Text>
+                <Text style={styles.hashtag}>{attraction.formatted_address.split(",")[0]}</Text>
+                <Text style={styles.priceCategory}>{attraction.rating}</Text>
 
                 {/* Open & Close Time */}
-                <Text style={styles.openTimeLabel}>Open From</Text>
-                <Text style={styles.openTime}>{attraction.hours}</Text>
+                <Text style={styles.openTimeLabel}>Open Now:</Text>
+                <Text style={styles.openTime}>{attraction.opening_hours?.open_now}</Text>
 
                 {/* About Section */}
                 <Text style={styles.sectionTitle}>About</Text>
-                <Text style={styles.description}>{attraction.about}</Text>
+                <Text style={styles.description}>{attraction.name}</Text>
 
                 {/* Address */}
                 <Text style={styles.sectionTitle}>Address</Text>
-                <TouchableOpacity onPress={() => Linking.openURL(attraction.googleMapsLink)}>
-                    <Text style={styles.linkText}>{attraction.address}</Text>
+                <TouchableOpacity onPress={() => Linking.openURL(attraction.formatted_address)}>
+                    <Text style={styles.linkText}>{attraction.formatted_address}</Text>
                 </TouchableOpacity>
             </View>
         </ScrollView>
@@ -239,6 +241,9 @@ const styles = StyleSheet.create({
     },
     iconButton: {
         padding: 8,
+    },
+    rightIcons: { 
+        flexDirection: "row", gap: 15 
     },
     mainImage: {
         width: "100%",

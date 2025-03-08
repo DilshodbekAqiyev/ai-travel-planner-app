@@ -1,0 +1,1023 @@
+[
+    {
+        "business_status": "OPERATIONAL",
+        "formatted_address": "B1.01(B, Shoppes at Four Seasons, 145, Jln Ampang, Kuala Lumpur, 50450 Kuala Lumpur, Federal Territory of Kuala Lumpur, Malaysia",
+        "geometry": {
+            "location": {
+                "lat": 3.1581699,
+                "lng": 101.713761
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 3.159396879892722,
+                    "lng": 101.7150608798927
+                },
+                "southwest": {
+                    "lat": 3.156697220107278,
+                    "lng": 101.7123612201073
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+        "icon_background_color": "#FF9E67",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+        "name": "Malaysia Food Village by Yong Kee @four Seasons",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            {
+                "height": 3024,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/110963301592671204790\">Lim Eng Hoo</a>"
+                ],
+                "photo_reference": "AUy1YQ310eGInNcyBsAjUzZi1Hzj8oTs89Ox_tj-3iXptSti-cPrjSav8lNSerHQE8Fl2O_H2_k2psUf9Z7jHzgqnLhByKyl3cH8PaWZ1gT98En6B-iAglxAQpVSf1_mGWCkAYhKovSWYKqL9R7xQIRA6VWTggVkiQuOZX_66Q0qGBIie_t9bAk60nRl",
+                "width": 4032
+            }
+        ],
+        "place_id": "ChIJQWdJd7w3zDERfbvAyD4YL94",
+        "plus_code": {
+            "compound_code": "5P57+7G Kuala Lumpur, Federal Territory of Kuala Lumpur",
+            "global_code": "6PM35P57+7G"
+        },
+        "rating": 4.3,
+        "reference": "ChIJQWdJd7w3zDERfbvAyD4YL94",
+        "types": [
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 679
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "formatted_address": "No. 108, Jalan Burhanuddin Helmi, Taman Tun Dr Ismail, 60000 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
+        "geometry": {
+            "location": {
+                "lat": 3.1527894,
+                "lng": 101.6220545
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 3.154107879892723,
+                    "lng": 101.6234159798927
+                },
+                "southwest": {
+                    "lat": 3.151408220107278,
+                    "lng": 101.6207163201073
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+        "icon_background_color": "#4B96F3",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/shoppingcart_pinlet",
+        "name": "The Food Company",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            {
+                "height": 564,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/103245866042443266824\">A Google User</a>"
+                ],
+                "photo_reference": "AUy1YQ01A2GMza1cU3bIQgzfh8_YiSWmCdq9nnxl3l3gqO60vJJ09L_1A996IbdPmeu9pwOH3LZG2wBwK5QmoV-wrcY7oAbhdWZBz8zJQle1SDuF__Zw8hpNArN8RY4hZDTfG0fmyZUsHp808BesYRFLNBpPf2VBFESPx3ciHJqsUV698KsoIvxoT_a_",
+                "width": 1000
+            }
+        ],
+        "place_id": "ChIJCwobBdZIzDERODLzgaLxtj8",
+        "plus_code": {
+            "compound_code": "5J3C+4R Kuala Lumpur, Federal Territory of Kuala Lumpur",
+            "global_code": "6PM35J3C+4R"
+        },
+        "rating": 4.6,
+        "reference": "ChIJCwobBdZIzDERODLzgaLxtj8",
+        "types": [
+            "grocery_or_supermarket",
+            "food",
+            "store",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 84
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "formatted_address": "Kuala Lumpur Sentral Station, Kuala Lumpur Sentral, 50470 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
+        "geometry": {
+            "location": {
+                "lat": 3.1343758,
+                "lng": 101.6860905
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 3.135826629892722,
+                    "lng": 101.6870700798927
+                },
+                "southwest": {
+                    "lat": 3.133126970107277,
+                    "lng": 101.6843704201073
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+        "icon_background_color": "#FF9E67",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+        "name": "Meals Station @ KL Sentral",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            {
+                "height": 3024,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/109277531956058105541\">Babang Travengler</a>"
+                ],
+                "photo_reference": "AUy1YQ28O-wfH5Q8Sx8EiPixggwFEVtJYPqf0LNiYbaGxzLGGyyqO7RwyHroAYx2mEjK9TTcdsoywKU-KodiVsDV3Nu5IzhMFRUgtw5w3ig7bl1WEUKfT0dcCNadctPqsuFtO0-KYzr0VGOPjs5uSCaOeCHR426Eux7Tf_gEDKGRFCq-38nkkByryw67",
+                "width": 4032
+            }
+        ],
+        "place_id": "ChIJJWFND8BJzDERjJQ35orwyLI",
+        "plus_code": {
+            "compound_code": "4MMP+QC Kuala Lumpur, Federal Territory of Kuala Lumpur",
+            "global_code": "6PM34MMP+QC"
+        },
+        "rating": 3.5,
+        "reference": "ChIJJWFND8BJzDERjJQ35orwyLI",
+        "types": [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 357
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "formatted_address": "88, Jln Alor, Bukit Bintang, 51200 Kuala Lumpur, Federal Territory of Kuala Lumpur, Malaysia",
+        "geometry": {
+            "location": {
+                "lat": 3.1461513,
+                "lng": 101.7093159
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 3.147497629892722,
+                    "lng": 101.7106684298927
+                },
+                "southwest": {
+                    "lat": 3.144797970107277,
+                    "lng": 101.7079687701073
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+        "icon_background_color": "#FF9E67",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+        "name": "Bukit Bintang Food street",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            {
+                "height": 2448,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/113302411946989311363\">Dung Nguyen</a>"
+                ],
+                "photo_reference": "AUy1YQ2W5Af4Er51f5etgvrRTSmLKaxhYH7cQT_9u7Lxx8uNTksFhyIeG8r5rr1aP8rzCzZQkCrGGvj31X4t1GbEd1oKzrl1mPV3KiGigNm5ROFoPYNyE1bxLJKQAGvuIoNmESGR_9lbEYWa-JvMg3wIy9WAedw4DguLWH2SGEyo5KkmjZyDTnEiXxYX",
+                "width": 3264
+            }
+        ],
+        "place_id": "ChIJhRg1XtE3zDERa9Clo41mwVE",
+        "plus_code": {
+            "compound_code": "4PW5+FP Kuala Lumpur, Federal Territory of Kuala Lumpur",
+            "global_code": "6PM34PW5+FP"
+        },
+        "rating": 4.5,
+        "reference": "ChIJhRg1XtE3zDERa9Clo41mwVE",
+        "types": [
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 370
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "formatted_address": "Persiaran Hampshire, off, Jln Ampang, Hampshire Park, 50450 Kuala Lumpur, Malaysia",
+        "geometry": {
+            "location": {
+                "lat": 3.1602104,
+                "lng": 101.7155777
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 3.161878179892722,
+                    "lng": 101.7174077298927
+                },
+                "southwest": {
+                    "lat": 3.159178520107277,
+                    "lng": 101.7147080701073
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+        "icon_background_color": "#FF9E67",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+        "name": "Tapak Urban Street Dining",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            {
+                "height": 3024,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/113198171042002270694\">Van Ambruce Ligutom</a>"
+                ],
+                "photo_reference": "AUy1YQ3tqDDLQje2tvu5O5LiYygi3R_DMAvdlKeEQuBbocQVb6a1qME8ME3DBvhhCRnCA_alWCCPsc7OTFaQF-tA9yU0BwvOv1cYuuCEzVR-JLAA-RJ4fUO8qp3Wm0O_6tXJPPUAk6TGn7bDNE2p_Mf6UZmshMw2CWWCXPowTvMRStsBnuAo3SOLs-mH",
+                "width": 4032
+            }
+        ],
+        "place_id": "ChIJM-ZKYtA3zDER4b2whi1y6fU",
+        "plus_code": {
+            "compound_code": "5P68+36 Kuala Lumpur, Federal Territory of Kuala Lumpur",
+            "global_code": "6PM35P68+36"
+        },
+        "price_level": 2,
+        "rating": 4.2,
+        "reference": "ChIJM-ZKYtA3zDER4b2whi1y6fU",
+        "types": [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 6975
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "formatted_address": "Central Market, M11 Mezzanie, 73, Jalan Benteng, Kuala Lumpur City Centre, 50050 Kuala Lumpur, Federal Territory of Kuala Lumpur, Malaysia",
+        "geometry": {
+            "location": {
+                "lat": 3.145333,
+                "lng": 101.6953368
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 3.146514079892722,
+                    "lng": 101.6966952798927
+                },
+                "southwest": {
+                    "lat": 3.143814420107278,
+                    "lng": 101.6939956201073
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+        "icon_background_color": "#FF9E67",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+        "name": "Central Market Food Court",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            {
+                "height": 2736,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/102702069249234750809\">Adeline Chai</a>"
+                ],
+                "photo_reference": "AUy1YQ34LJgt7qdWWfDyPl8G_SygneG-2jnhhTwsBBNM-bu8v5uziTsavAgSkGNK5qakTmcK0jHmhUTN1IlhwVYb-EfWc1PydqUvUWI8NnlDHdyjMZobR6WkW_Yc2Xe8HM3iIeYbVEee9HL4ZsrgMlTrWuzQ4ZZ4J0B1K9mfOxum7GPzkTiOqpHUqj1m",
+                "width": 3648
+            }
+        ],
+        "place_id": "ChIJ5-deZWFJzDERqhqPBwyvvDs",
+        "plus_code": {
+            "compound_code": "4MWW+44 Kuala Lumpur, Federal Territory of Kuala Lumpur",
+            "global_code": "6PM34MWW+44"
+        },
+        "rating": 4.2,
+        "reference": "ChIJ5-deZWFJzDERqhqPBwyvvDs",
+        "types": [
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 323
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "formatted_address": "120, Jln Imbi, Bukit Bintang, 55100 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
+        "geometry": {
+            "location": {
+                "lat": 3.1453649,
+                "lng": 101.714306
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 3.146627129892722,
+                    "lng": 101.7157286298927
+                },
+                "southwest": {
+                    "lat": 3.143927470107278,
+                    "lng": 101.7130289701073
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+        "icon_background_color": "#7B9EB0",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+        "name": "Wing Heong Bak Kwa Dried Meat @Imbi Road KL Kuala Lumpur",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            {
+                "height": 3024,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/106242758222734982275\">Tom Kirk</a>"
+                ],
+                "photo_reference": "AUy1YQ1No2WpQk7GP3tRmN5LCIMtpEomV_Mem94gfg6vqhO21ZzMH3to8pRLYkl4iQ10oJuvgcl_sE9PZgJIs9Huac8gHuKqD6GTOiFUHIUtk9cLI2dDHmiWEqrFmlYFcpt_YvIki0tkG7bneTFQjb6iYQZ5cnOWdk91hlYE6dgj6kCy9aWOZvdd4kaM",
+                "width": 4032
+            }
+        ],
+        "place_id": "ChIJrSKMky42zDERqKd_EXkgP6U",
+        "plus_code": {
+            "compound_code": "4PW7+4P Kuala Lumpur, Federal Territory of Kuala Lumpur",
+            "global_code": "6PM34PW7+4P"
+        },
+        "rating": 4.9,
+        "reference": "ChIJrSKMky42zDERqKd_EXkgP6U",
+        "types": [
+            "food",
+            "store",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 1416
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "formatted_address": "B1-01B, Shoppes at Four Seasons Place, 145 Jalan Ampang Kuala Lumpur, Malaysia, 50450 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
+        "geometry": {
+            "location": {
+                "lat": 3.158586,
+                "lng": 101.714123
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 3.160056179892722,
+                    "lng": 101.7154414298927
+                },
+                "southwest": {
+                    "lat": 3.157356520107277,
+                    "lng": 101.7127417701073
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+        "icon_background_color": "#FF9E67",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+        "name": "Malaysia Boleh at Four Seasons Place KL",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            {
+                "height": 3464,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/116595704226475978029\">Alexander AikTuan, Oo</a>"
+                ],
+                "photo_reference": "AUy1YQ1o0eSBU-UfdMqx1E3RHIdCa_sBBWSptzR2BH09A_No0Ri-8EV8PiqkRIxiNqRwRCb4o0LvGxIAmm4xZa-94Kzl0Q-r3-4UHgxp6OLZA_mEMKe7GvBbdfADF08rWKYmGH6YuJLIPmRmk6zm8pZg6-ne4x5Jgdb9HS8XIsTW1lNU6vE6z97Ejyx4",
+                "width": 4618
+            }
+        ],
+        "place_id": "ChIJcY-gLyI3zDER5HTylDEKvDo",
+        "plus_code": {
+            "compound_code": "5P57+CJ Kuala Lumpur, Federal Territory of Kuala Lumpur",
+            "global_code": "6PM35P57+CJ"
+        },
+        "rating": 4.2,
+        "reference": "ChIJcY-gLyI3zDER5HTylDEKvDo",
+        "types": [
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 389
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "formatted_address": "201A-C, Jln Ampang, Kuala Lumpur City Centre, 50088 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
+        "geometry": {
+            "location": {
+                "lat": 3.1573055,
+                "lng": 101.7124665
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 3.159803900000001,
+                    "lng": 101.7140403298927
+                },
+                "southwest": {
+                    "lat": 3.155972299999999,
+                    "lng": 101.7113406701073
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+        "icon_background_color": "#FF9E67",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+        "name": "Signatures Food Court - Suria KLCC",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            {
+                "height": 3024,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/113264204178041594538\">Mei Yee Lee</a>"
+                ],
+                "photo_reference": "AUy1YQ3pxBQvTAJsrn1UxsbWHlNn7habRj-hNLZAkFauHhv2NiVtpIgqBFTZgGt8oDUIIboFkVH1tsaI8nGlXQo96P2ioyVKcKq9eSUkGGTRuUDUo8wy8Jnhf9BpjeF4F5A0Lz6wZQmEvgEHaZjqSuDwecOCQWGXQzG9nwu-sY9pPnFbxA1qEcf_v8gr",
+                "width": 4032
+            }
+        ],
+        "place_id": "ChIJc0VyLdE3zDER28wMAJyPYoI",
+        "plus_code": {
+            "compound_code": "5P46+WX Kuala Lumpur, Federal Territory of Kuala Lumpur",
+            "global_code": "6PM35P46+WX"
+        },
+        "rating": 4.2,
+        "reference": "ChIJc0VyLdE3zDER28wMAJyPYoI",
+        "types": [
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 893
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "formatted_address": "136, Jalan Burhanuddin Helmi, Taman Tun Dr Ismail, 60000 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
+        "geometry": {
+            "location": {
+                "lat": 3.1531174,
+                "lng": 101.6229682
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 3.154435029892723,
+                    "lng": 101.6243292798927
+                },
+                "southwest": {
+                    "lat": 3.151735370107278,
+                    "lng": 101.6216296201073
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+        "icon_background_color": "#FF9E67",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+        "name": "Leen’s Middle East Kitchen",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            {
+                "height": 4032,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/100910902151736324423\">100910902151736324423</a>"
+                ],
+                "photo_reference": "AUy1YQ3X6dCD5mXGzaC1e67OwuFuExwWFFPW4KBR5hfAxBVo7KCw4afSRqGojwgXOZbjqkQh_xC2PZWm0LMpgxMCh_YwnINiOMd1YLFxf438mCburjDnVsJIIYVTViLHXqHESwVve9e6Bto53zyP1WH5Kl6CumJgcY01jG5D2cK7Xo0_RmzaHtuh13BR",
+                "width": 3024
+            }
+        ],
+        "place_id": "ChIJxbi0bW5JzDER4H0wI_rarnE",
+        "plus_code": {
+            "compound_code": "5J3F+65 Kuala Lumpur, Federal Territory of Kuala Lumpur",
+            "global_code": "6PM35J3F+65"
+        },
+        "rating": 4.5,
+        "reference": "ChIJxbi0bW5JzDER4H0wI_rarnE",
+        "types": [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 372
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "formatted_address": "Block A-2-8, CENTRIO Pantai Hillpark, Pantai Dalam, 59200 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
+        "geometry": {
+            "location": {
+                "lat": 3.1065495,
+                "lng": 101.6656299
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 3.107904129892722,
+                    "lng": 101.6669796798927
+                },
+                "southwest": {
+                    "lat": 3.105204470107278,
+                    "lng": 101.6642800201073
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+        "icon_background_color": "#7B9EB0",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+        "name": "The Secret Foodsmith - Nyonya Fusion Delivery",
+        "opening_hours": {
+            "open_now": false
+        },
+        "photos": [
+            {
+                "height": 3024,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/109771979978330849099\">A Google User</a>"
+                ],
+                "photo_reference": "AUy1YQ3iuF0cEsgOXbmDdXxFM4or3RDGV7bL0WP3fVqAg1V3IcOgKTLjj5Q3dAT7QuiYsncx2FxY3RVLXCUiVay0RvAFnhqy00UFLF-O05x7QQOh9ta5U7hkAQgwMA2dmghIUfgMDlSxwEnwDv6DlFd7Gd8rOGUcA2aJNudz8gMXAwLxlo4OXk-9BJCc",
+                "width": 4032
+            }
+        ],
+        "place_id": "ChIJWcUDgSVLzDER3viWU4b0Cy4",
+        "plus_code": {
+            "compound_code": "4M48+J7 Kuala Lumpur, Federal Territory of Kuala Lumpur",
+            "global_code": "6PM34M48+J7"
+        },
+        "rating": 5,
+        "reference": "ChIJWcUDgSVLzDER3viWU4b0Cy4",
+        "types": [
+            "meal_delivery",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 153
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "formatted_address": "L2-9 & L2-10, Level 2, Avenue K, 156, Jln Ampang, Kuala Lumpur City Centre, 50450 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
+        "geometry": {
+            "location": {
+                "lat": 3.1594766,
+                "lng": 101.7135149
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 3.160579079892722,
+                    "lng": 101.7148954298927
+                },
+                "southwest": {
+                    "lat": 3.157879420107277,
+                    "lng": 101.7121957701073
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+        "icon_background_color": "#FF9E67",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+        "name": "Food City 食满堂 [Avenue K , KLCC]",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            {
+                "height": 2160,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/102017391555305002376\">lehping86</a>"
+                ],
+                "photo_reference": "AUy1YQ34vELVxMPPYCc2SXySTHR9diqEvoxNZj4idi-_-VZmowkRa70jq6tQE9oHm8o3r5MRtYPrxLw4HeGLUf1grOnYSbYDnPJhLMbdSmLdlYiFLGjg_Swj6UfMvBUyL5CwyvH_s4NBkPllB0LQ44b5Jfwr1MAlJ2pfWw8B6cGMc0NfVhT5htFA_ukf",
+                "width": 3840
+            }
+        ],
+        "place_id": "ChIJ9RAraLA3zDERPMonEbtxwx4",
+        "plus_code": {
+            "compound_code": "5P57+QC Kuala Lumpur, Federal Territory of Kuala Lumpur",
+            "global_code": "6PM35P57+QC"
+        },
+        "rating": 3.7,
+        "reference": "ChIJ9RAraLA3zDERPMonEbtxwx4",
+        "types": [
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 159
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "formatted_address": "Unit B1-12, Ground Floor, South Link, 2A, Jalan Kerinchi Kiri 2, Bangsar South, 59200 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
+        "geometry": {
+            "location": {
+                "lat": 3.1132677,
+                "lng": 101.6649661
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 3.114617379892723,
+                    "lng": 101.6663074798927
+                },
+                "southwest": {
+                    "lat": 3.111917720107278,
+                    "lng": 101.6636078201073
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+        "icon_background_color": "#FF9E67",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+        "name": "Food City 食满堂 @Bangsar South",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            {
+                "height": 5712,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/114449867765191512608\">edson e</a>"
+                ],
+                "photo_reference": "AUy1YQ3AACKXKYGFnF9ZtbZSei3TRH2VLO0riOgy_DJKD_YmiS5lvNRRlQb7cCKPkDABGi_oTfr-FovEO8nQ4MFH7D8_J3LRY8TUroSfE5pXwxfMOKD9iAJIYvFgIZRXIK2WJFZLp_ryFLPybKYQe-tK8mT_UKSVENCRnGMB9UsaHcpq-0y38Jad8Ww",
+                "width": 4284
+            }
+        ],
+        "place_id": "ChIJ9bjQzktJzDERgoiin247XeU",
+        "plus_code": {
+            "compound_code": "4M77+8X Kuala Lumpur, Federal Territory of Kuala Lumpur",
+            "global_code": "6PM34M77+8X"
+        },
+        "rating": 3.9,
+        "reference": "ChIJ9bjQzktJzDERgoiin247XeU",
+        "types": [
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 203
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "formatted_address": "Teh mun, City Centre, 50000 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
+        "geometry": {
+            "location": {
+                "lat": 3.1433787,
+                "lng": 101.6974062
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 3.144723079892723,
+                    "lng": 101.6986326798927
+                },
+                "southwest": {
+                    "lat": 3.142023420107278,
+                    "lng": 101.6959330201073
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+        "icon_background_color": "#FF9E67",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+        "name": "Dong Teh Mun Food Court",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            {
+                "height": 1868,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/113671074030905703974\">Mathew Ho</a>"
+                ],
+                "photo_reference": "AUy1YQ0KCgM8eONr0cTIazIePrjHMB2kDXbSlIOn6z5LDQTMuyQ7NcqeWR7agpFLrVjuZY87fZ9D0IRLf2Dr5D-snR7rtzoOpUXLEp_c8hz_Wy0yaOI4vANVkGO9T46fdVOvN_SMMS_BiNky16ze4DkHEXTbwNQKp4JkmsuNf6EcpWytYRHvfAY3GKlc",
+                "width": 4000
+            }
+        ],
+        "place_id": "ChIJB-uLRdBJzDERm4StIC85C6Y",
+        "plus_code": {
+            "compound_code": "4MVW+9X Kuala Lumpur, Federal Territory of Kuala Lumpur",
+            "global_code": "6PM34MVW+9X"
+        },
+        "rating": 4.1,
+        "reference": "ChIJB-uLRdBJzDERm4StIC85C6Y",
+        "types": [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 26
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "formatted_address": "19, 15, Jalan Hang Lekir, Kuala Lumpur City Centre, 50000 Kuala Lumpur, Federal Territory of Kuala Lumpur, Malaysia",
+        "geometry": {
+            "location": {
+                "lat": 3.144465,
+                "lng": 101.6978869
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 3.145931629892722,
+                    "lng": 101.6993022798927
+                },
+                "southwest": {
+                    "lat": 3.143231970107277,
+                    "lng": 101.6966026201073
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+        "icon_background_color": "#FF9E67",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+        "name": "Portuguese Grill Fish",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            {
+                "height": 3024,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/100048008702330876869\">Siew Fong T</a>"
+                ],
+                "photo_reference": "AUy1YQ3bkdOroMZRc9I2i7ZxzyO_w25B1nnIrUDSFHxp4Q4-brvwKtTgBiBUj8AO3Twb7yOkKQmgHkvI9lZ5Wenq1p2PW1bpSlNbmLF9xXpgcnOncocjlckK85hCL4DbwCdq_sg5MX8TQ038_kP-z894ck_jF2juxAyeP4vxwngyrxwLGYu8l4W7ISA-",
+                "width": 4032
+            }
+        ],
+        "place_id": "ChIJC9kxrNFJzDER0ZGxvk5i03E",
+        "plus_code": {
+            "compound_code": "4MVX+Q5 Kuala Lumpur, Federal Territory of Kuala Lumpur",
+            "global_code": "6PM34MVX+Q5"
+        },
+        "price_level": 2,
+        "rating": 4.1,
+        "reference": "ChIJC9kxrNFJzDER0ZGxvk5i03E",
+        "types": [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 375
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "formatted_address": "143, Jalan Petaling, City Centre, 50000 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
+        "geometry": {
+            "location": {
+                "lat": 3.1415921,
+                "lng": 101.697902
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 3.142945979892723,
+                    "lng": 101.6992884298927
+                },
+                "southwest": {
+                    "lat": 3.140246320107278,
+                    "lng": 101.6965887701073
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+        "icon_background_color": "#FF9E67",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+        "name": "GUI GUI Korean Barbecue",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            {
+                "height": 2250,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/113770341676474678973\">k</a>"
+                ],
+                "photo_reference": "AUy1YQ0BhRxXNbQNaWnacU2sy9_zf-jnK5v-feDEzRzIl1HNTPtFlIwrbm2WWvtSycpiuDmLpQw-8A8uBdEeJDoihxcLM4ZWbnHKhwhWBsVrCAgrtzw49h1tRvZyZf7kZI6EtqYcdyPuFvjpm0g7gJkQ_YtX5e80vuIBBYkCZjhEHSiHKIh05M-sVTwg",
+                "width": 4000
+            }
+        ],
+        "place_id": "ChIJxWMqahpJzDERSYRmKh68WPE",
+        "plus_code": {
+            "compound_code": "4MRX+J5 Kuala Lumpur, Federal Territory of Kuala Lumpur",
+            "global_code": "6PM34MRX+J5"
+        },
+        "rating": 4.4,
+        "reference": "ChIJxWMqahpJzDERSYRmKh68WPE",
+        "types": [
+            "museum",
+            "grocery_or_supermarket",
+            "restaurant",
+            "food",
+            "store",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 542
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "formatted_address": "1, Jln Tong Shin, Bukit Bintang, 55100 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
+        "geometry": {
+            "location": {
+                "lat": 3.1448519,
+                "lng": 101.7070877
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 3.146172279892722,
+                    "lng": 101.7084202798927
+                },
+                "southwest": {
+                    "lat": 3.143472620107278,
+                    "lng": 101.7057206201073
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+        "icon_background_color": "#FF9E67",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+        "name": "Kar Tasty Asia Food Stall",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            {
+                "height": 4032,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/113487181895506041555\">CHOIAAR SHENG</a>"
+                ],
+                "photo_reference": "AUy1YQ17iPUqBUKtlyL_l-7iVF7dIJUMy1kgnKAQLIbOjFhHt8GzzgGAVQZBMHllA6K83HtVlWou1wkKYwOh0Bk-REcJm2wv1KtT_fcrz7Ad9VzOu3m9dlNlvuUlS0-c4WT0lMbP90FqEmfNyEgIGP3gNgP7Yew1WwPe3NYFapcZLKEDRuZuMq-H7tcu",
+                "width": 3024
+            }
+        ],
+        "place_id": "ChIJczqb3ik2zDERogegKMPwSAE",
+        "plus_code": {
+            "compound_code": "4PV4+WR Kuala Lumpur, Federal Territory of Kuala Lumpur",
+            "global_code": "6PM34PV4+WR"
+        },
+        "price_level": 1,
+        "rating": 4.4,
+        "reference": "ChIJczqb3ik2zDERogegKMPwSAE",
+        "types": [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 28
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "formatted_address": "38G, Jalan 28/70a, Desa Sri Hartamas, 50480 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
+        "geometry": {
+            "location": {
+                "lat": 3.1624692,
+                "lng": 101.6487137
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 3.163842479892722,
+                    "lng": 101.6500403298927
+                },
+                "southwest": {
+                    "lat": 3.161142820107278,
+                    "lng": 101.6473406701073
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+        "icon_background_color": "#FF9E67",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+        "name": "Savor Restaurant",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            {
+                "height": 3022,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/117814534065699754943\">Caik Leng Chua</a>"
+                ],
+                "photo_reference": "AUy1YQ3OK2sJZGhkZIXoCs0D859wXkFYBDFGg5yV-vNQsu6gpRoxrRlgB1e0Xll1SEgTTHrFy0OrQYHA1MvEFr2fknydEoH7PYIlzTgbdAWKXdT0fEQLkh-jCMv3kkLxdtPtqN8B8mKjAn9Nsm_xnqZYBhABkKzmPcAnWVHBWPp6Tti5IUThdSKxzvT2",
+                "width": 4030
+            }
+        ],
+        "place_id": "ChIJPTjQkZpJzDERgzF5MImzqTM",
+        "plus_code": {
+            "compound_code": "5J6X+XF Kuala Lumpur, Federal Territory of Kuala Lumpur",
+            "global_code": "6PM35J6X+XF"
+        },
+        "rating": 4.8,
+        "reference": "ChIJPTjQkZpJzDERgzF5MImzqTM",
+        "types": [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 879
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "formatted_address": "147, Jalan Petaling, City Centre, 50000 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
+        "geometry": {
+            "location": {
+                "lat": 3.1415171,
+                "lng": 101.6977586
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 3.142865829892722,
+                    "lng": 101.6991023298927
+                },
+                "southwest": {
+                    "lat": 3.140166170107277,
+                    "lng": 101.6964026701073
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+        "icon_background_color": "#FF9E67",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+        "name": "Asia Street Food Club - Jalan Petaling",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            {
+                "height": 3024,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/111332406788321277539\">Zoey S</a>"
+                ],
+                "photo_reference": "AUy1YQ2DirxgxQx03jUOozarRgWprdtd1gJg2dAceQdjFiINygyhZUCGKAKHq0xDKb25J9LdVeGPIMS3HOAYHTR7i0HQHzbzbe8BpN4UgVnW8SyWLFHyEE9Mek2riO8Pm1YMgwthtNFRChi-qw-tkFktKOh8jYAxhyr0GfbK1QJbmTP_ys19fE7d20eo",
+                "width": 3024
+            }
+        ],
+        "place_id": "ChIJQboaDJ9JzDERV_8WxJuO0Dc",
+        "plus_code": {
+            "compound_code": "4MRX+J4 Kuala Lumpur, Federal Territory of Kuala Lumpur",
+            "global_code": "6PM34MRX+J4"
+        },
+        "rating": 3.9,
+        "reference": "ChIJQboaDJ9JzDERV_8WxJuO0Dc",
+        "types": [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 40
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "formatted_address": "65A, Jalan Thambipillay, Brickfields, 50470 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
+        "geometry": {
+            "location": {
+                "lat": 3.131604,
+                "lng": 101.6873467
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 3.132914929892722,
+                    "lng": 101.6887324298927
+                },
+                "southwest": {
+                    "lat": 3.130215270107278,
+                    "lng": 101.6860327701073
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+        "icon_background_color": "#FF9E67",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+        "name": "Simply Indian - Best Indian restaurant in Kl Sentral | Best sea food restaurant in Kl Sentral",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            {
+                "height": 4032,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/101429236366524225897\">sunil</a>"
+                ],
+                "photo_reference": "AUy1YQ1XRTJFJ3rYpYHdFla5z1whTgerUINhZIKn6_SXbZd964sMFz8Zhv5v9JMfzxDlZTTjr2Y5qblcUaAx_FKwHD2fsl5PqNapX60ck5mUFgFEwvL2bf9IhkLaYxaglzv2hGiZ4QwFbdEwOJrYfFL_gh8-qP71T9lQVoM9FVCG-ybmLoj8d_aVvAeQ",
+                "width": 3024
+            }
+        ],
+        "place_id": "ChIJCzWzbQhJzDERpVRxl6tOzlk",
+        "plus_code": {
+            "compound_code": "4MJP+JW Kuala Lumpur, Federal Territory of Kuala Lumpur",
+            "global_code": "6PM34MJP+JW"
+        },
+        "rating": 4.8,
+        "reference": "ChIJCzWzbQhJzDERpVRxl6tOzlk",
+        "types": [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 154
+    }
+]

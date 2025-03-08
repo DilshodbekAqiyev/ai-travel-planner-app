@@ -2,11 +2,20 @@ import { View, Text, TextInput, TouchableOpacity, Image, StyleSheet, ScrollView 
 import React, { useState } from "react";
 import { Ionicons } from "@expo/vector-icons";
 import { useRouter } from "expo-router";
+import sampleAttractions from "./details.json";
+import { SearchHotelDetailsProps } from "../hotels/props";
+import { SearchItems } from "../hotels/search";
 
 export default function AttractionSearch() {
     const [searchQuery, setSearchQuery] = useState("");
     const [filteredAttractions, setFilteredAttractions] = useState([]);
+    const [isFetching, setIsFetching] = useState(false);
     const router = useRouter();
+
+    // set as false if want to use api
+    const isDebug = true;
+
+    const _sampleAttractions = sampleAttractions as SearchHotelDetailsProps[];
 
     const attractions = [
         { id: 1, name: "Petronas Towers", location: "Kuala Lumpur, Malaysia", image: "https://www.petronastwintowers.com.my/wp-content/uploads/2024/02/card_3.png" },
@@ -21,17 +30,22 @@ export default function AttractionSearch() {
         { id: 7, name: "Thean Hou Temple", location: "Kuala Lumpur, Malaysia", image: "https://www.asiakingtravel.com/cuploads/files/Kuala-Lumpur-Thean-Hou-Temple-1(1).jpg" },
     ];
 
-    const handleSearch = (text) => {
-        setSearchQuery(text);
-        if (text.trim() === "") {
-            setFilteredAttractions([]);
-        } else {
-            const filtered = attractions.filter(attraction =>
-                attraction.name.toLowerCase().includes(text.toLowerCase()) ||
-                attraction.location.toLowerCase().includes(text.toLowerCase())
-            );
-            setFilteredAttractions(filtered);
+    const handleSearch = async (text: string) => {
+        if (isDebug) {
+            router.push({ pathname: "/attractions/att-list", params: { hotels: JSON.stringify(_sampleAttractions) } })
+            return;
         }
+        if (isFetching) return;
+        setIsFetching(true);
+        console.log("Input:", text);
+
+        const hotels = await SearchItems(text);
+        console.log("Search result:", hotels);
+
+        setIsFetching(false);
+        // console.log(hotels);
+
+        router.push({ pathname: "/hotels/hotel-list", params: { hotels: JSON.stringify(hotels) } })
     };
 
     return (
@@ -48,20 +62,23 @@ export default function AttractionSearch() {
                     style={styles.searchBar}
                     placeholder="Search attractions"
                     value={searchQuery}
-                    onChangeText={handleSearch}
+                    onChangeText={(text) => { setSearchQuery(text) }}
                 />
+                <TouchableOpacity onPress={() => { handleSearch(searchQuery) }}>
+                    <Ionicons name="navigate-outline" size={24} color="gray" style={styles.searchIcon} />
+                </TouchableOpacity>
             </View>
 
             {/* Nearby Attractions Section */}
             <Text style={styles.sectionTitle}>Nearby Attractions</Text>
             <ScrollView horizontal showsHorizontalScrollIndicator={false} style={styles.nearbyContainer}>
-                {nearbyAttractions.map((attraction) => (
+                {_sampleAttractions.slice(0, 4).map((attraction, index) => (
                     <TouchableOpacity
-                        key={attraction.id}
+                        key={index}
                         style={styles.nearbyCard}
-                        onPress={() => router.push({ pathname: "/attractions/att-detail", params: { id: attraction.id } })}
+                        onPress={() => router.push({ pathname: "/attractions/att-detail", params: { attraction: JSON.stringify(attraction) } })}
                     >
-                        <Image source={{ uri: attraction.image }} style={styles.nearbyImage} />
+                        <Image source={{ uri: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photo_reference=${attraction.photos[0].photo_reference}&key=${process.env.EXPO_PUBLIC_GOOGLE_MAP_KEY}` }} style={styles.nearbyImage} />
                         <Text style={styles.nearbyName}>{attraction.name}</Text>
                     </TouchableOpacity>
                 ))}
@@ -69,16 +86,16 @@ export default function AttractionSearch() {
 
             {/* Attraction List */}
             <View style={styles.resultsContainer}>
-                {(filteredAttractions.length > 0 ? filteredAttractions : attractions).map((attraction) => (
+                {(_sampleAttractions.slice(4, 8)).map((attraction, index) => (
                     <TouchableOpacity
-                        key={attraction.id}
+                        key={index}
                         style={styles.attractionCard}
-                        onPress={() => router.push({ pathname: "/attractions/att-detail", params: { id: attraction.id } })}
+                        onPress={() => router.push({ pathname: "/attractions/att-detail", params: { attraction: JSON.stringify(attraction) } })}
                     >
-                        <Image source={{ uri: attraction.image }} style={styles.attractionImage} />
+                        <Image source={{ uri: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photo_reference=${attraction.photos[0].photo_reference}&key=${process.env.EXPO_PUBLIC_GOOGLE_MAP_KEY}` }} style={styles.attractionImage} />
                         <View style={styles.attractionInfo}>
                             <Text style={styles.attractionName}>{attraction.name}</Text>
-                            <Text style={styles.attractionLocation}>{attraction.location}</Text>
+                            <Text style={styles.attractionLocation}>{attraction.formatted_address}</Text>
                         </View>
                     </TouchableOpacity>
                 ))}
