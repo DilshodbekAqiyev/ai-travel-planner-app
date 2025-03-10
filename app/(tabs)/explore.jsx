@@ -51,7 +51,7 @@ const styles = StyleSheet.create({
   scrollContainer: { flex: 1, backgroundColor: "#E3F0FE" },
   container: { width: "100%", alignItems: "center", padding: 20 },
   letsTravelBox: { backgroundColor: "#BBDDFD", paddingVertical: 20, paddingHorizontal: 80, borderRadius: 15, marginTop: 50, marginBottom: 30, alignItems: "center" },
-  letsTravelText: { fontSize: 32, fontWeight: "bold", color: "black" },
+  letsTravelText: { fontSize: 32, fontWeight: "bold", color: "black", fontFamily: "outfit-bold" },
   buttonGrid: { width: "100%", flexDirection: "row", flexWrap: "wrap", justifyContent: "space-evenly", alignItems: "center" },
   button: { width: 129, height: 65, backgroundColor: "#204E81", justifyContent: "center", alignItems: "center", borderRadius: 10, marginBottom: 15, marginHorizontal: 10 },
   buttonText: { color: "white", fontWeight: "bold", fontSize: 12, marginTop: 3 },
