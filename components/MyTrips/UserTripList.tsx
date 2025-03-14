@@ -68,16 +68,16 @@ export default function UserTripList({ userTrips }: UserTripListParams) {
             }
             }
             style={{
-              backgroundColor: Colors.PRIMARY,
+              backgroundColor: "#E3F0FE",
               padding: 15,
               borderRadius: 15,
               marginTop: 10
             }}>
             <Text style={{
-              color: Colors.WHITE,
+              color: "black",
               textAlign: "center",
               fontFamily: "outfit-medium",
-              fontSize: 15
+              fontSize: 18
             }}>See your plan</Text>
           </TouchableOpacity>
 

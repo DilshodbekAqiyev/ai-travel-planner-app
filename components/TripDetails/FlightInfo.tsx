@@ -2,6 +2,7 @@ import { View, Text, TouchableOpacity } from 'react-native'
 import React from 'react'
 import { Colors } from '@/constants/Colors'
 import { FlightProps } from '@/configs/props/interface'
+import { router } from 'expo-router'
 
 
 interface FlightInfoParams {
@@ -30,12 +31,20 @@ export default function FlightInfo({ flightData }: FlightInfoParams) {
           fontFamily: "outfit-bold",
           fontSize: 20
         }}>✈ Flights</Text>
-        <TouchableOpacity style={{
-          backgroundColor: Colors.PRIMARY,
-          padding: 5,
-          width: 100,
-          borderRadius: 7
-        }}>
+        <TouchableOpacity
+          style={{
+            backgroundColor: "#204E81",
+            padding: 5,
+            width: 100,
+            borderRadius: 7
+          }}
+          onPress={() => {
+            router.push({
+              pathname: "/stripe/payment",
+              params: { price: flightData.price }
+            })
+          }}
+        >
           <Text style={{
             textAlign: "center",
             color: Colors.WHITE,
@@ -54,7 +63,7 @@ export default function FlightInfo({ flightData }: FlightInfoParams) {
       <Text style={{
         fontFamily: "outfit",
         fontSize: 17
-      }}>Price: {flightData.price}</Text>
+      }}>Price: {flightData.price.replace("$", "RM ")}</Text>
     </View>
   )
 }

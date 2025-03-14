@@ -102,11 +102,11 @@ export default function HotelDetail() {
         <Text style={styles.sectionTitle}>Restaurants Nearby</Text>
         <ScrollView horizontal showsHorizontalScrollIndicator={false} style={styles.scrollContainer}>
           <TouchableOpacity style={styles.nearbyCard}>
-            <Image source={{ uri: "https://source.unsplash.com/100x100/?restaurant" }} style={styles.nearbyImage} />
+            <Image source={{ uri: "https://foodforthought.com.my/wp-content/uploads/Tamarind-Hill-Exterior-Tamarind-Hill-Food-For-Thought.jpg" }} style={styles.nearbyImage} />
             <Text style={styles.nearbyText}>Tamarind Hill</Text>
           </TouchableOpacity>
           <TouchableOpacity style={styles.nearbyCard}>
-            <Image source={{ uri: "https://source.unsplash.com/100x100/?food" }} style={styles.nearbyImage} />
+            <Image source={{ uri: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkd43Hb-2vRVBKy-YHlvPxEYlq6DWPNZCKHQ&s" }} style={styles.nearbyImage} />
             <Text style={styles.nearbyText}>Nobu KL</Text>
           </TouchableOpacity>
         </ScrollView>
@@ -116,11 +116,11 @@ export default function HotelDetail() {
         <Text style={styles.sectionTitle}>Attractions Nearby</Text>
         <ScrollView horizontal showsHorizontalScrollIndicator={false} style={styles.scrollContainer}>
           <TouchableOpacity style={styles.nearbyCard}>
-            <Image source={{ uri: "https://source.unsplash.com/100x100/?tower" }} style={styles.nearbyImage} />
+            <Image source={{ uri: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/76/d5/e8/die-petronas-towers-sind.jpg?w=1200&h=1200&s=1" }} style={styles.nearbyImage} />
             <Text style={styles.nearbyText}>Petronas Towers</Text>
           </TouchableOpacity>
           <TouchableOpacity style={styles.nearbyCard}>
-            <Image source={{ uri: "https://source.unsplash.com/100x100/?park" }} style={styles.nearbyImage} />
+            <Image source={{ uri: "https://www.suriaklcc.com.my/wp-content/uploads/2022/01/KLCC-Park-900x600-1.jpg" }} style={styles.nearbyImage} />
             <Text style={styles.nearbyText}>KLCC Park</Text>
           </TouchableOpacity>
         </ScrollView>
@@ -129,9 +129,14 @@ export default function HotelDetail() {
         {/* Hotel Images */}
         <Text style={styles.sectionTitle}>Photos</Text>
         <ScrollView horizontal showsHorizontalScrollIndicator={false} style={styles.scrollContainer}>
-          <Image source={{ uri: "https://source.unsplash.com/200x200/?hotel-room" }} style={styles.hotelImage} />
+          {<>
+            {hotel.photos.slice(1, 4).map((photo) => (
+              <Image source={{ uri: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photo_reference=${photo.photo_reference}&key=${process.env.EXPO_PUBLIC_GOOGLE_MAP_KEY}` }} style={styles.hotelImage} />
+            ))}
+          </>}
+          {/* <Image source={{ uri: "https://source.unsplash.com/200x200/?hotel-room" }} style={styles.hotelImage} />
           <Image source={{ uri: "https://source.unsplash.com/200x200/?pool" }} style={styles.hotelImage} />
-          <Image source={{ uri: "https://source.unsplash.com/200x200/?lobby" }} style={styles.hotelImage} />
+          <Image source={{ uri: "https://source.unsplash.com/200x200/?lobby" }} style={styles.hotelImage} /> */}
         </ScrollView>
       </View>
     </ScrollView>

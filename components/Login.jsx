@@ -8,41 +8,49 @@ export default function Login() {
 
     const router = useRouter();
     return (
-        <View>
-            <Image source={require("./../assets/images/travel.png")}
+        <View
+            style={{
+                backgroundColor: "#046CB8",
+                height: "100%",
+                paddingHorizontal: 50,
+                alignItems: "center"
+            }}
+        >
+            <Image source={require("./../assets/images/WeJustGo Logo.png")}
                 style={{
-                    width: "100%",
-                    height: 520
+                    paddingTop: 300,
+                    width: 350,
+                    resizeMode: "contain"
                 }}
             />
-            <View style={styles.container}>
-                <Text style={{
-                    fontSize: 30,
-                    fontFamily: "outfit-bold",
-                    textAlign: "center",
-                    marginTop: 20
-                }}>AI Travel Planner</Text>
 
+            <Text style={{
+                fontSize: 30,
+                fontFamily: "outfit",
+                textAlign: "center",
+                color: "white",
+                // marginTop: 20
+            }}>Welcome,</Text>
+
+            <Text style={{
+                fontFamily: "outfit",
+                fontSize: 18,
+                textAlign: "center",
+                color: "white",
+                marginTop: 0,
+                fontStyle: "italic"
+            }}>your all in one travel planner</Text>
+
+            <TouchableOpacity style={styles.button}
+                onPress={() => router.push('auth/sign-in')}
+            >
                 <Text style={{
+                    color: Colors.WHITE,
+                    textAlign: "center",
                     fontFamily: "outfit",
-                    fontSize: 17,
-                    textAlign: "center",
-                    color: Colors.GRAY,
-                    marginTop: 20
-                }}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda omnis officia quo corporis similique nemo hic, impedit ea tempore ducimus tempora inventore, dolore vitae eveniet enim deserunt. Illum, ut officia!</Text>
-
-                <TouchableOpacity style={styles.button}
-                    onPress={() => router.push('auth/sign-in')}
-                >
-                    <Text style={{
-                        color: Colors.WHITE,
-                        textAlign: "center",
-                        fontFamily: "outfit",
-                        fontSize: 17
-                    }}>Get Started</Text>
-                </TouchableOpacity>
-
-            </View>
+                    fontSize: 17
+                }}>Get Started</Text>
+            </TouchableOpacity>
         </View>
     )
 }
@@ -59,7 +67,10 @@ const styles = StyleSheet.create({
     },
 
     button: {
+        position: "absolute",
+        bottom: 100,
         padding: 15,
+        width: "100%",
         backgroundColor: Colors.PRIMARY,
         borderRadius: 99,
         marginTop: "20%"
