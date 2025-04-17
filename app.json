@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "ai-travel-planner-app",
+    "name": "AI Travel Planner",
     "slug": "ai-travel-planner-app",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -17,20 +17,30 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "foregroundImage": "./assets/images/icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.dilshodbek20042602.aitravelplannerapp"
     },
     "web": {
       "bundler": "metro",
       "output": "static",
-      "favicon": "./assets/images/favicon.png"
+      "favicon": "./assets/images/icon.png"
     },
     "plugins": [
       "expo-router"
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "c59bd7cc-f982-46b1-be75-eb82b675c29a"
+      }
+    },
+    "owner": "dilshodbek20042602"
   }
 }
